@@ -1,6 +1,25 @@
-python
-ipykernel
-decorator
-h5py
-scipy 
-matplotlib
+name: ligo
+
+channels:
+  - conda-forge
+
+dependencies:
+  - python=2.7
+  - ipykernel=4.8
+  - scipy=1.2
+  - decorator=4.4
+  - h5py=2.10
+  - matplotlib=2.2
+
+
+
+
+
+
+### note of the essentials:
+#python
+#ipykernel
+#decorator
+#h5py
+#scipy 
+#matplotlib
